@@ -1,0 +1,14 @@
+.main_heading {
+    font-size: 30px;
+}
+.header {
+  &_nav_links {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: rgb(216, 217, 218);
+        text-decoration: underline;
+      }
+  }
+}

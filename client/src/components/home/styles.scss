@@ -1,0 +1,30 @@
+.main_container {
+  margin: 50px 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+    
+.warning_message {
+  width: 50%;
+  margin: auto;
+  margin-top: 130px;
+  font-size: 100px;
+  color: gray;
+  opacity: 0.4;
+  text-align: center;
+}
+.filter_option{
+  width: 20%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  &>h4 {
+    padding-top: 10px;
+  }
+  &>div {
+    width: 10rem;
+    margin-left: 10px;
+  }
+}

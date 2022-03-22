@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.user_profile {
+  &_main_container {
+    h1 {
+      width: 50%;
+      margin: 10px auto;
+      text-align: center;
+      text-decoration: underline 1px solid rgb(209, 208, 208);
+      font-family: "Playfair Display", serif;
+    }
+  }
+  &_container {
+    display: flex;
+    margin: 50px auto;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  &_image_container {
+    border-radius: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.15);
+    img {
+        height: 250px;
+    }
+  }
+  &_form_container {
+    width: inherit;
+    form {
+      width: 80%;
+      margin: 10px auto;
+
+      button{
+        margin-right: 40px;
+      }
+    }
+  }
+}
